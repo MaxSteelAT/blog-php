@@ -1,0 +1,22 @@
+.add-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-article{
+  width: 500px;
+  padding: 0.75em 1em;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: solid 1px #dddddd;
+  background-color: #fff;
+}
+
+.input-article.add-tex {
+  height: 200px;
+  resize: vertical;
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
